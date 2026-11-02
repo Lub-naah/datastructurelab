@@ -37,7 +37,7 @@ return;
 else
 {
 temp=head;
-while(temp->next!=0)
+while(temp != NULL)
 {
 if(data==temp->data)
 {
